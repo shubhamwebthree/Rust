@@ -1,0 +1,1 @@
+/home/shubhamwebthree/Desktop/Rust/rust_basics/arithmetic_logical_operations/target/debug/arithmetic_operations: /home/shubhamwebthree/Desktop/Rust/rust_basics/arithmetic_logical_operations/src/main.rs
