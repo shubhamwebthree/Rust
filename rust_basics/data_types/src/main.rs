@@ -50,7 +50,7 @@ println!("{}", welcome2); // This will print: Hello Rust World!
 
 
 // code practice 
-
+/*
 fn main() {
     
     // TODO: Declare a f32 variable to store the average temperature on Earth in Fahrenheit - 57.2 degrees
@@ -70,10 +70,11 @@ fn main() {
     
     // TODO: Print whether water freezes at 32 degrees Fahrenheit
     println!("wether wather freezes at 32 degree {}", water_freeze_at_32_degree);
-
+    
     // TODO: Use a char variable to represent the first letter of 'Earth' - E
     let first_letter_of_earth : char = 'E';
     
     // TODO: Print the first letter of the 'Earth'
     println!("First letter of earth is {}", first_letter_of_earth);
 }
+*/

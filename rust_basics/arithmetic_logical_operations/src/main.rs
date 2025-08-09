@@ -49,7 +49,10 @@ fn main() {
 }
  */
 
-fn main() {
+
+ /*
+ 
+ fn main() {
     let books_counted: i32 = 17;
     let magazines_counted: i32 = 3;
     let research_papers_found: bool = false;
@@ -61,6 +64,8 @@ fn main() {
     // TODO: Use a logical AND operation to check if:
     println!("Found more than 15 books and research papers: {}", books_counted > 15 && research_papers_found  );
 }
+
+*/
 
 fn main() {
 

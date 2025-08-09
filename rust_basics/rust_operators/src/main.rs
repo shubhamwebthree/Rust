@@ -32,11 +32,11 @@ fn main() {
     println!("Is our submarine faster than the ocean current? {}",can_travel_fast);
 }
 
-
+/*
 fn main() {
     
-    // TODO: Assign the distance to the harbor (40,000 meters) to a variable
-    let distance_to_harbor = 40000;
+// TODO: Assign the distance to the harbor (40,000 meters) to a variable
+let distance_to_harbor = 40000;
     
     // TODO: Assign the distance to the archipelago (120,000 meters) to another variable
     let distance_to_archipelago = 120000;
@@ -53,3 +53,4 @@ fn main() {
     println!("distance of the archipelago distance is greater than harbor {}", check_distance_to_archipelago);
     
 }
+*/
