@@ -188,6 +188,49 @@ fn main() {
 */
 
 
+
+/*
+use std::collections::HashMap;
+
+fn main() {
+    let mut hero_scores: HashMap<&str, i32> = HashMap::new();
+
+    hero_scores.insert("Iron Man", 85);
+    hero_scores.insert("Captain America", 90);
+
+    // Change elements
+    if let Some(entry) = hero_scores.get_mut("Captain America") {
+        *entry = 95;
+    }
+    
+    // Access values
+    let score = hero_scores.get(&"Captain America");
+    println!("Captain America's score: {:?}", score);
+}
+*/
+
+/*
+use std::collections::HashMap;
+
+fn main() {
+    // TODO: Create a mutable HashMap named `movie_ratings` that maps &str to i32
+    let mut movie_ratings : HashMap<&str,i32> = HashMap::new();
+    // TODO: Insert some movie titles with their ratings into the HashMap
+    movie_ratings.insert(&"Iron Man",9);
+    movie_ratings.insert(&"Batman",10);
+    movie_ratings.insert(&"Thor",9);
+    // TODO: Call the show_ratings function without transferring ownership
+    show_ratings(&movie_ratings);
+    // TODO: Print the HashMap to confirm ownership was not transferred
+    println!("Ratings without ownership transfer {:?}",movie_ratings);
+}
+
+// TODO: Write a function show_ratings that prints out each movie and rating without taking ownership
+fn show_ratings(map: &HashMap<&str,i32>){
+    println!("{:?}",map);
+}
+*/
+
 /*
 use std::collections::HashMap;
 
@@ -217,7 +260,7 @@ fn transfer_book_ownership(map: HashMap<&str, &str>) {
 }
 */
 
-
+/*
 use std::collections::HashMap;
 
 fn main() {
@@ -230,10 +273,34 @@ fn main() {
     hero_map.insert("Iron Man", "Genius Inventor");
     // TODO: Add "Hulk" with the power "Strength"
     hero_map.insert("Hulk","Strength");
-
+    
     // Access values
     // TODO: Access the power of "Iron Man" and store it in a variable
     let has_iron_man = hero_map.get(&"Iron Man");
     // TODO: Print the power of Iron Man using the variable
     println!("Power of Iron Man is {:?}",has_iron_man);
 }
+*/
+
+/* 
+use std::collections::HashMap;
+
+fn main() {
+    // TODO: Create a mutable HashMap named `movie_ratings` that maps &str to i32
+    let mut movie_ratings : HashMap<&str,i32> = HashMap::new();
+    // TODO: Insert some movie titles with their ratings into the HashMap
+    movie_ratings.insert(&"Iron Man",9);
+    movie_ratings.insert(&"Batman",10);
+    movie_ratings.insert(&"Thor",9);
+    // TODO: Call the show_ratings function without transferring ownership
+    show_ratings(&movie_ratings);
+    // TODO: Print the HashMap to confirm ownership was not transferred
+    println!("Ratings without ownership transfer {:?}",movie_ratings);
+}
+
+// TODO: Write a function show_ratings that prints out each movie and rating without taking ownership
+fn show_ratings(map: &HashMap<&str,i32>){
+    println!("{:?}",map);
+}
+*/
+
