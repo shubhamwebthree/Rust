@@ -153,7 +153,7 @@ fn get_quote_length(quote: &String) -> usize {
 }
 */
 
-
+/*
 fn main() {
     let mut superhero = String::from("Spider");
     update_name(& mut superhero); 
@@ -164,3 +164,21 @@ fn update_name(name: &mut String) {
     let title = " Man";
     name.push_str(title);
 }
+*/
+
+/*
+fn main() {
+    let mut title = String::from("Wonder");
+    // TODO: Call your function
+    add(&mut title);
+    println!("{}", title); // Expected: Wonder Woman
+}
+
+// TODO: Create a function that adds " Woman" to an input String
+fn add(hero: &mut String){
+    let name = " Woman";
+    hero.push_str(name);
+}
+
+*/
+
